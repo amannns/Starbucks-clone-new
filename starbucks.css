@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Croissant+One&family=Oswald:wght@200&family=Playpen+Sans:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Croissant+One&family=Lilita+One&family=Oswald:wght@200&family=PT+Sans+Narrow&family=Playpen+Sans:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Croissant+One&family=Lilita+One&family=Mukta:wght@300&family=Oswald:wght@200&family=PT+Sans+Narrow&family=Playpen+Sans:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Croissant+One&family=Lilita+One&family=Mukta:wght@300;700&family=Oswald:wght@200&family=PT+Sans+Narrow&family=Playpen+Sans:wght@600&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    font-family: Nunito, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: fixed;
+    top: 0px;
+    height: 10.5vh;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 6px rgb(0, 0, 0);
+}
+.spacecoverBox{
+    display: flex;
+    width: 100%;
+    height: 11vh;
+    background-color: rgb(221, 221, 221);
+}
+.logo{
+    height: 100%;
+}
+.navLeft{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 40vw;
+    margin-top: 2vh;
+    margin-right: 5vw;
+}
+.logoImg{
+    height: 38px;
+}
+.home{
+    font-weight: bold;
+    border-bottom: 2px solid rgb(116, 167, 116);
+    height: 4vh;
+}
+.textBox{
+    display: flex;
+    margin-top: 1.5vh;
+}
+.textBox:hover{
+    cursor: pointer;
+}
+.navOpt{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+}
+.userImg{
+    height: 30px;
+}
+#input{
+    border-radius: 20px;
+    padding: 5px;
+    width: 15vw;
+    height: 5vh;
+    border: none;
+    box-shadow: 1px 1px 5px 1px rgb(221, 221, 221);
+}
+.container{
+    font-family: Nunito, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    height: 11vh;
+    align-items: center;
+    background-color: rgb(44, 65, 44);
+    box-shadow: 0px 1px 5px 1px rgb(182, 182, 182);
+}
+.signupTxt{
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-right: 33vw;
+    color: white;
+}
+.knowmoreBtn{
+    font-family: Nunito, sans-serif;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    height: 35vh;
+    justify-content: space-evenly;
+}
+.optImg{
+    height: 15vh;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container2Opt{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+    width: 92%;
+}
+#txt{
+    padding-right: 60vw;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(44, 65, 56);
+    font-weight: 800;
+}
+.container2Box{
+    display: flex;
+    flex-direction: column;
+    height: 19vh;
+    justify-content: space-between;
+    font-family: Nunito, sans-serif;
+    align-items: center;
+    font-size: 0.9rem;
+    color: rgb(58, 58, 58);
+}
+.optImg:hover{
+    border: 2px rgb(44, 65, 56) solid;
+    cursor: pointer;
+}
+.container:hover{
+    cursor: pointer;
+}
+.container3{
+    font-family: Nunito, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 47vh;
+}
+.mainBox{
+    display: flex;
+    height: 70%;
+    width: 83%;
+    border-radius: 7px;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tricolorImg{
+    height: 93%;
+    padding-top: 20px;
+}
+.circle1{
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.404);
+    box-shadow: 1px 1px 8px 0px rgb(161, 161, 161);
+    position: relative;
+    left: 1.5vw;
+    height: 50px;
+    width: 50px;
+}
+.circle2{
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 1px 1px 8px 0px rgb(161, 161, 161);
+    position: relative;
+    right: 1.5vw;
+    height: 50px;
+    width: 50px;
+}
+.maincontainerTxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 2.5vh;
+    margin-left: 4vw;
+    color: rgb(41, 41, 41);
+    height: 75%;
+}
+.container3Btn{
+    position: static;
+    margin-top: 165px;
+    margin-left: 250px;
+    height: 7vh;
+    width: 12vw;
+    color: white;
+    background-color: rgb(22, 124, 80);
+    border: none;
+    border-radius: 50px;
+}
+.mainBox:hover{
+    cursor: pointer;
+}
+.container4{
+    height: 69vh;
+    font-family: Nunito, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+#boxHead{
+    padding-right: 73vw;
+    padding-bottom: 3vh;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: rgb(44, 65, 56);
+}
+.arrCicle1{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 2.5vw;
+    background-color: rgba(255, 255, 255, 0.501);
+    box-shadow: 1px 1px 8px 0px rgb(161, 161, 161);
+}
+.cnt4Main{
+    width: 85vw;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.arrCicle2{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 9.8vw;
+    background-color: white;
+    box-shadow: 1px 1px 8px 0px rgb(161, 161, 161);
+}
+.container4Content{
+    height: 50vh;
+    width: 93%;
+    display: flex;
+    align-items: center;
+}
+.ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 26.4vw;
+    border-radius: 8px;
+    box-shadow: 3px 3px 12px rgb(161, 161, 161);
+}
+.ad:hover{
+    cursor: pointer;
+}
+.Label1{
+    background-image: url("capucino.jpg");
+    display: flex;
+    align-items: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Label2{
+    background-image: url("https://starbucks-cdn-01.s3.ap-south-1.amazonaws.com/Items/Large/webP/102257.webp");
+    display: flex;
+    align-items: end;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.Label3{
+    background-image: url("frapacino.jpg");
+    display: flex;
+    align-items: end;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.info1{
+    background-color: white;
+    border-radius: 8px;
+    height: 31.5vh;
+    width: 100%;
+}
+.info2{
+    background-color: white;
+    border-radius: 8px;
+    height: 31.5vh;
+    width: 100%;
+}
+.info3{
+    background-color: white;
+    border-radius: 8px;
+    height: 31.5vh;
+    width: 100%;
+}
+.veg{
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+.infotxt{
+    margin-left: 2vw;
+    font-family: sans-serif;
+    color: rgb(77, 77, 77);
+}
+.black{
+    margin-left: 2vw;
+}
+.difftxt{
+    font-family: PT Sans Narrow, sans-serif;
+}
+.addtoBtn{
+    font-family: PT Sans Narrow, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: expanded;
+    height: 5vh;
+    width: 7vw;
+    color: white;
+    background-color: rgb(22, 124, 80);
+    border: 0px;
+    border-radius: 2.5vh;
+    position: static;
+    margin-left: 18vw;
+    box-shadow: 0px 3px 15px 1px rgb(161, 161, 161);
+}
+.addtoBtn:hover{
+    background-color: rgb(13, 64, 42);
+    cursor: pointer;
+}
+.container5{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    background-color: rgb(233, 233, 207);
+}
+.cnt5AdBox{
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    width: 54vw;
+    margin-left: 6vw;
+}
+.container5box{
+    height: 20vh;
+    width: 25vw;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 3px 3px 12px rgb(161, 161, 161);
+}
+#container5head{
+    font-family: Nunito, sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: rgb(44, 65, 56);
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    padding-left: 6vw;   
+}
+.adStrawbrry{
+    height: 12vh;
+    border-radius: 8px;
+}
+.adLimg{
+    margin-left: 1.5vw;
+    margin-top: 2vh;
+    font-family: Mukta,sans-serif;
+    font-weight: lighter;
+    color: rgb(71, 71, 71);
+}
+.Adleft{
+    display: flex;
+    flex-direction: row;
+    
+}
+.adLinfo{
+    margin-left: 1vw;
+    margin-top: 2vh;
+    font-family: Mukta, sans-serif;
+}
+.difftxtt{
+    font-family: PT Sans Narrow, sans-serif;
+    font-size: 9px;
+    color: rgb(40, 40, 40);
+}
+.addtoBtnbarista{
+    font-family: PT Sans Narrow, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: expanded;
+    height: 5vh;
+    width: 7vw;
+    color: white;
+    background-color: rgb(22, 124, 80);
+    border: 0px;
+    border-radius: 2.5vh;
+    position: static;
+    margin-right: 1vw;
+    margin-top: 13vh;
+    box-shadow: 0px 3px 15px 1px rgb(161, 161, 161);
+}
+.addtoBtnbarista:hover{
+    background-color: rgb(13, 64, 42);
+    cursor: pointer;
+}
+.adVanilla{
+    height: 12vh;
+    border-radius: 8px;
+}
+.adRimg{
+    margin-left: 1.5vw;
+    margin-top: 2vh;
+    font-family: Mukta,sans-serif;
+    font-weight: lighter;
+    color: rgb(71, 71, 71);
+}
+.Adright{
+    display: flex;
+    flex-direction: row;
+    
+}
+.adRinfo{
+    margin-left: 1vw;
+    margin-top: 2vh;
+    font-family: Mukta, sans-serif;
+}
+.container5box:hover{
+    cursor: pointer;
+}
+.emptySpace{
+    background-color: white;
+    height: 6vh;
+}
+.circle1:hover{
+    background-color: rgb(244, 244, 244, 0.404);
+    cursor: pointer;
+}
+.circle2:hover{
+    background-color: rgb(244, 244, 244);
+    cursor: pointer;
+}
+.arrCicle1:hover{
+    background-color: rgb(244, 244, 244, 0.404);
+    cursor: pointer;
+}
+.arrCicle2:hover{
+    background-color: rgb(244, 244, 244);
+    cursor: pointer;
+}
+.container6{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    background-color: rgb(233, 233, 207);
+}
+.container6Box{
+    background-image: url("farmer.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-position-y: reverse 4vh;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    height: 51.5vh;
+    width: 81%;
+    border-radius: 8px;
+    font-family: Mukta, sans-serif;
+    
+}
+#container6head{
+    padding: 4vh;
+    margin-left: 4.5vw;
+    font-family: Nunito, sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: rgb(44, 65, 56);
+}
+.learnMoreBtn{
+    font-family: sans-serif;
+    font-size: 10px;
+    font-stretch: extra-expanded;
+    height: 4vh;
+    width: 12vw;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 2.5vh;
+    position: static;
+    margin-top: 7vh;
+    margin-left: 2vw;
+}
+.learnMoreBtn:hover{
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+.container6txt{
+    margin-top: 25vh;
+    margin-left: 2vw;
+    
+}
+.cnt6ElementHead{
+    font-weight: 900;
+    font-stretch: extra-expanded;
+}
+.difftxttt{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-stretch: expanded;
+    margin-top: 2vh;
+}
+.emptySpace2{
+    background-color: white;
+    height: 11vh;
+}
+.container7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 105vh;
+    background-color: rgb(44, 65, 44);;
+}
+.cnt7Cntnt{
+    color: white;
+    height: 76vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2.9vh;
+    border-bottom: 1px solid white;
+}
+.logo2{
+    height: fit-content;
+}
+#cnt7Heads{
+    font-family: Nunito, sans-serif;
+    font-size: 1.2rem;
+}
+#cnt7Heads:hover{
+    cursor: pointer;
+}
+.cnt7Element{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.socialMediaLogo{
+    display: flex;
+    justify-content: space-between;
+}
+p:hover{
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+}
+.logo3:hover{
+    cursor: pointer;
+}
+.playStore{
+    margin-top: 1vh;
+}
